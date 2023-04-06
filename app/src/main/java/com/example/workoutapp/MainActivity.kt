@@ -3,8 +3,6 @@ package com.example.workoutapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.FrameLayout
-import android.widget.Toast
 import com.example.workoutapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
