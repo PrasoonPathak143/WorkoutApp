@@ -21,7 +21,7 @@ class HistoryAdapter(private val items: ArrayList<String>):RecyclerView.Adapter<
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val date : String = items.get(position)
+        val date : String = items[position]
         holder.tvPosition.text = (position+1).toString()
         holder.tvItem.text = date
         if(position%2 == 0){
